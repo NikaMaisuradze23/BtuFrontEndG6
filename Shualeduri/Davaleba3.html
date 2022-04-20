@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .conteiner1 {
+
+        border: 10px solid #9cbc2c;
+        margin: auto;
+        height: 400px;
+        width: 700px;
+
+    }
+
+    .conteiner2 {
+        border: 2px double white;
+        background-color: #b9cf6a; 
+        border-radius: 15px;
+        height: 95px;
+        width: 694px;
+    }
+
+    form {
+        font-size: 30px; 
+        
+        top: 25px; 
+        position: relative;
+    }
+    
+
+</style>
+<body>
+    <div class="conteiner1">
+        
+        <div class="conteiner2">
+            <span style="font-size: 25px; position: relative; left: 10px;">Card type</span>
+            <div style="font-size: 30px; text-align: center;top: 10px; position: relative;">
+            <input type="radio" id="visa" name="visa" value="visa">
+            <label for="visa">Visa</label>
+
+            <input type="radio" id="AmEx" name="AmEx" value="AmExL">
+            <label for="AmEx">AmEx</label>
+
+            <input type="radio" id="mastercard" name="mastercard" value="mastercard">
+            <label for="mastercard">Mastercard</label>
+            </div>
+
+        </div>
+        <div class="conteiner2">
+            
+            <form >
+                <label for="fname">Card number</label>
+                <input style="height:40px; width: 300px; border-radius: 15px;" type="text" id="fname" name="fname"><br><br>
+                
+              </form>
+            
+        </div>
+        <div class="conteiner2">
+            <form>
+                <label for="fname">Security code</label>
+                <input style="height:40px; width: 300px; border-radius: 15px;" type="text" id="fname" name="fname"><br><br>
+                
+              </form>
+        </div>
+        <div class="conteiner2">
+            <form>
+                <label for="fname">Name on card</label>
+                <input style="height:40px; width: 300px; border-radius: 15px;" type="text" id="fname" name="fname" placeholder="Exact name as on the card"><br><br>
+                
+              </form>
+        </div>
+    </div>
+</body>
+</html>

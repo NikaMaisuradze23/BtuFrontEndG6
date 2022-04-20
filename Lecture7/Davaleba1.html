@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    .container1 {
+        background-color: pink;
+        height: 700px;
+        width: 700px;
+    }
+
+    .container2{
+        background-color: pink;
+        border: 15px solid orange;
+        height: 600px;
+        width: 600px;
+        margin-left: 30px;
+        
+    }
+
+    .container3{
+        background-color: #ffefd5;
+        border: 1px solid black;
+
+    }
+    h1{
+        color: #c71585;
+        font-weight: bold;
+        text-align: center;
+
+    }
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        
+        background-color: pink;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: 2px solid green;
+        border-radius: 4px;
+        color: #c71585;
+        font-size: 20px;
+        font-weight: bold;
+        
+        
+    }
+
+</style>
+</head>
+<body>
+    <div class="container1">
+        <div class="container2">
+            <h1>FORM REGISTRARION</h1>
+            <div class="container3">
+                <form action="/action_page.php">
+                    <label for="fname">Name Depan</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Name Depan..">
+                
+                    <label for="lname">Alamat Email</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Email Anda..">
+
+                    <label for="lname">Password</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Password Anda..">
+                
+                    <label for="Tangal">Tanggal lahir</label>
+                    <select id="Tangal" name="Tangal">
+                      <option value="-Tgl">-Tgl</option>
+                
+                    </select>
+                    <select id="Tangal" name="Tangal">
+                        <option value="-Bulan">-Bulan</option>
+                        
+                      </select>
+                      <select id="Tangal" name="Tangal">
+                        <option value="-Tahun">-Tahun</option>
+                        
+                      </select>
+                  
+                    <input type="submit" value="Simpan">
+                  </form>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
