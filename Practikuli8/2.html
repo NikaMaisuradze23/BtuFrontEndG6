@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js</title>
+    <script  src="1.js"></script>
+</head>
+<body>
+    <h1 style="font-weight: bold; font-style: italic; text-decoration: underline; 
+    text-align: center;" id="demo"></h1>
+    
+
+
+
+    <script>
+        
+        function sum(a,b) {
+            return a + b;
+        }
+
+        
+        let y;
+
+        const a = parseInt(prompt("ჩაწრეთეთ რიცხვი: "));
+        const b = parseInt(prompt("ჩაწრეთეთ რიცხვი: "));
+
+        y = sum(a,b);
+        document.getElementById("demo").innerHTML = y;
+        
+    </script>
+</body>
+</html>
